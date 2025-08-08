@@ -1,0 +1,13 @@
+{
+  "model_demonstration": {
+    "feature_model": "DQN for genomic feature selection",
+    "diagnosis_model": "Policy Gradient for cancer diagnosis",
+    "inference_process": [
+      "1. Load patient genomic features",
+      "2. Feature model selects most informative features",
+      "3. Diagnosis model predicts cancer type",
+      "4. Output prediction with confidence score"
+    ],
+    "clinical_application": "Real-time cancer diagnosis support system"
+  }
+}

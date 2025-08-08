@@ -1,0 +1,28 @@
+
+    Mathematical Formulations for Technical Report:
+    
+    1. DQN Loss Function:
+    L(theta) = E[(r + gamma * max_a' Q(s', a'; theta^-) - Q(s, a; theta))^2]
+    
+    2. Policy Gradient (REINFORCE):
+    gradient_theta J(theta) = E[gradient_theta log pi_theta(a|s) * R_t]
+    
+    3. Reward Function:
+    R(s, a) = accuracy_reward + efficiency_bonus + coordination_reward
+    
+    4. Feature Selection Q-Value Update:
+    Q(s, a) <- Q(s, a) + alpha * [r + gamma * max_a' Q(s', a') - Q(s, a)]
+    
+    5. Policy Network Update:
+    theta <- theta + alpha * gradient_theta log pi_theta(a|s) * (R_t - b(s))
+    
+    Where:
+    - theta: network parameters
+    - s: state (genomic features)
+    - a: action (feature selection or diagnosis)
+    - r: immediate reward
+    - gamma: discount factor (0.99)
+    - alpha: learning rate
+    - R_t: discounted return
+    - b(s): baseline (value function)
+    

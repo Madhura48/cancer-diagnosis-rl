@@ -1,0 +1,45 @@
+{
+  "training_summary": {
+    "total_time_hours": 0.6161834204859203,
+    "total_episodes": 150000,
+    "final_accuracy": 0.9155,
+    "avg_confidence": 0.03748440519712865,
+    "final_epsilon": 0.019999504074518934
+  },
+  "final_evaluation": {
+    "accuracy": 0.9155,
+    "avg_confidence": 0.03748440519712865,
+    "total_episodes": 2000,
+    "classification_report": {
+      "0": {
+        "precision": 0.923374613003096,
+        "recall": 0.9445764053840063,
+        "f1-score": 0.9338551859099804,
+        "support": 1263.0
+      },
+      "1": {
+        "precision": 0.9011299435028248,
+        "recall": 0.8656716417910447,
+        "f1-score": 0.8830449826989619,
+        "support": 737.0
+      },
+      "accuracy": 0.9155,
+      "macro avg": {
+        "precision": 0.9122522782529604,
+        "recall": 0.9051240235875255,
+        "f1-score": 0.9084500843044712,
+        "support": 2000.0
+      },
+      "weighted avg": {
+        "precision": 0.915177452292246,
+        "recall": 0.9155,
+        "f1-score": 0.9151316260267202,
+        "support": 2000.0
+      }
+    }
+  },
+  "architecture": {
+    "feature_agent_params": 183966,
+    "diagnosis_agent_params": 13730
+  }
+}

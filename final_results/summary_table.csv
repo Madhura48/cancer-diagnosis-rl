@@ -1,0 +1,9 @@
+Metric,Value
+Final Accuracy,0.915
+Average Confidence,0.037
+Training Time (hours),0.62
+Total Episodes,"150,000"
+Feature Agent Parameters,"183,966"
+Diagnosis Agent Parameters,"13,730"
+Dataset Size,"85,350 (augmented)"
+Real Cancer Samples,569 (Wisconsin Breast Cancer)
