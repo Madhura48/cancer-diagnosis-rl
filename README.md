@@ -288,5 +288,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Healthcare AI ethics guidelines
 
 ---
-
-**🎯 This project achieved TOP 25% assignment criteria through technical excellence, real-world impact, and innovative multi-agent RL implementation in healthcare for the Prompt Engineering and GenAI course.**
