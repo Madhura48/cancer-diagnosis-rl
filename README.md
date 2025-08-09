@@ -18,6 +18,9 @@ This project implements a **Multi-Agent Reinforcement Learning system** for canc
 - **Production-Ready Web Interface** with live AI chatbot integration
 - **Real Healthcare Application** using actual patient genomic data
 
+### Assignment website
+https://cancer-diagnosis-rl.netlify.app/
+
 ## 🤖 System Architecture
 
 ### Architecture Overview
