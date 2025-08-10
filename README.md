@@ -276,8 +276,7 @@ This project demonstrates:
 
 **Project Author**: Madhura Adadande
 **Course**: Prompt Engineering and GenAI
-**Institution**: [Your University]
-**Year**: 2025
+**Institution**: Northeastern Univesity
 
 ## 📄 License
 
